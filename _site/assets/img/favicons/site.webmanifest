@@ -1,0 +1,23 @@
+
+
+{
+  "name": "Damian Doan",
+  "short_name": "Damian Doan",
+  "description": "am a fourth-year student seeking a summer 2023 internship. With strong skills in web development (ReactJS, NodeJS, Tailwind CSS) and mobile app development (Android, Flutter), I have fundamental knowledge in PHP and have built and deployed a container of my own website on Google Cloud Platform. I am also proficient in Figma for designing interfaces. I am passionate and driven to learn and contribute to an organization's growth in web development.",
+  "icons": [
+    {
+      "src": "/assets/img/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "theme_color": "#2a1e6b",
+  "background_color": "#ffffff",
+  "display": "fullscreen"
+}
+
