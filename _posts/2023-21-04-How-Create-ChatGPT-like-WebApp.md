@@ -36,13 +36,45 @@ Create new secret key then copy to save somewhere safe, we will use it later
 {: .prompt-tip }
 ## 2. Get the reactJS web app version of chatGPT
 
-Clone or fork this <a href="https://github.com/EyuCoder/chatgpt-clone">repository</a>: 
+Clone or fork this <a href="https://github.com/katzenundhundle/react-chatGPT-clone">repository</a>: 
 ```shell
-git clone https://github.com/EyuCoder/chatgpt-clone
+git clone https://github.com/katzenundhundle/react-chatGPT-clone
 ```
 
-Follow the instructions to set up
+### Install client dependencies
+```shell
+cd client
+npm install
+```
+### Install server dependencies
+```shell
+cd server
+npm install
+```
 
+### Environment Variable Setup
+Go to server folder and create .env file in root of server folder and create a variable REACT_APP_OPENAI_API_KEY = [ [Your Open AI key here](#1-create-chatgpt-account-to-obtain-api-key) ] insise .env file as
+
+```
+REACT_APP_OPENAI_API_KEY = [Your Open AI key here]
+```
+
+### Start the client
+```
+cd client
+npm start
+```
+
+### Start the server
+```
+cd server
+node index.js
+```
+Check if your client application run on port 3000 with the development environment configuration, so in your browser just go to http://localhost:3000
+
+Check if your server application run on port 4000
+
+<!-- ### result -->
 
 
 
