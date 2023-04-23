@@ -56,7 +56,8 @@ npm install
 Go to server folder and create .env file in root of server folder and create a variable REACT_APP_OPENAI_API_KEY = [ [Your Open AI key here](#1-create-chatgpt-account-to-obtain-api-key) ] insise .env file as
 
 ```
-REACT_APP_OPENAI_API_KEY = [Your Open AI key here]
+touch .env
+echo "REACT_APP_OPENAI_API_KEY = [Your Open AI key here]" > .env
 ```
 
 ### Start the client
